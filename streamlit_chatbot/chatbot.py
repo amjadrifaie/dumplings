@@ -32,7 +32,7 @@ robot_img = "robot.jpg"
 
 
 # Configure Gemini API
-GOOGLE_API_KEY = "AIzaSyDZ8u2bcSszOsAT_UUwJ0X95jaXMZabDIY"
+GOOGLE_API_KEY = st.secrets['GOOGLE_API_KEY']
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-2.5-flash')
 
