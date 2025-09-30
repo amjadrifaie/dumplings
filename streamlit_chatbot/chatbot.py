@@ -105,7 +105,7 @@ def main():
         # 3. Display assistant response
         # This block is now correctly inside the main function AND the 'if prompt' block,
         # ensuring 'response' is defined when st.write(response) is called.
-        with st.chat_message("assistant", avatar=robot_img):
+        with st.chat_message("assistant", avatar=robot.jpg):
             st.write(response)
           
         # 4. Add assistant response to history
