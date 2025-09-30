@@ -28,7 +28,7 @@ with st.sidebar:
 
 
 user_emoji = "😹" 
-robot_img = "../robot.jpg" 
+robot_img = "streamlit_chatbot/robot.jpg" 
 
 
 # Configure Gemini API
